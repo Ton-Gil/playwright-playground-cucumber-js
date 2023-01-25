@@ -16,10 +16,10 @@ Playwright with BDD. Cucumber runner
 
 ## Running the project
 
-'''
+```
     "test": "./node_modules/.bin/cucumber-js --require tests --publish-quiet",
     "report": "./node_modules/.bin/cucumber-js --require tests --publish-quiet --format json:./reports/cucumber.json"
-'''
+```
 
 - test: runs the tests locally. It runs all the tests in "features" folder
 - report: runs the tests locally and creates de cucumber report in json format. A "reports" folder is previously needed in the project home directory. This report can be uploaded to the Test Manager in the next CI/CD pipeline stage
