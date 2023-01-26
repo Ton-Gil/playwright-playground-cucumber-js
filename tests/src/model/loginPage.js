@@ -11,6 +11,10 @@ class loginPage {
         await this.informCredentials(page, user, password);
         await page.locator(this.selectors.optionLogin).click()
     }
+
+    getLoginErrorElement(page) {
+        return page.locator(this.selectors.loginError);
+    }
 };
 
 module.exports = loginPage;
