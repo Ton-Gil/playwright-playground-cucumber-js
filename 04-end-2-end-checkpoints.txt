@@ -1,11 +1,8 @@
 
-# E2E DATA FLOW
+# E2E DATA FLOW CHECKPOINTS
 
-Previous tests were about web architecture and in-page actions.
-E2E data flow refers how the data is passed through the pages by following the purchase flow.
-There are steps forward and steps backward. Both must take into account the purchased products.
+Now that the conditions are set, it is time for defining what to check for validating the test
 
-The happy path flow 
 
 
 LOGIN
