@@ -2,7 +2,7 @@ const {Given, When, Then} = require('@cucumber/cucumber');
 const {language, pageUrls, passwords, errorTexts} = require('./src/constants.js');
 const {expect} = require('@playwright/test');
 
-Given(/^I am "(standard_user|locked_out_user)" valid user$/, function(user) {
+Given(/^I am "(standard_user|locked_out_user)" user$/, function(user) {
     global.user = user;
 });
 
