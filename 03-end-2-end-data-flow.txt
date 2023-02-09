@@ -57,7 +57,7 @@ Scenario: Locked Out login when using locked out user and valid password
  - Close Burger menu
         - L1. CP1: table element invisible 
         - L1. CP2: Burger menu is visible
- - Select All Items
+ - All Items
         - L2. CP1: products page title
         - L2. CP2: products grid visible (note: this path is finished here, so we add this additional checkpoint)
  - About SauceLabs
@@ -93,7 +93,7 @@ Scenario: Locked Out login when using locked out user and valid password
  - Close Burger menu
         - L1. CP1: table element invisible 
         - L1. CP2: Burger menu is visible
- - Select All Items
+ - All Items
         - L2. CP1: products page title
         - L2. CP2: products grid visible (note: this path is finished here, so we add this additional checkpoint)
  - About SauceLabs
@@ -124,7 +124,7 @@ Scenario: Locked Out login when using locked out user and valid password
  - Close Burger menu
         - L1. CP1: table element invisible 
         - L1. CP2: Burger menu is visible
- - Select All Items
+ - All Items
         - L2. CP1: products page title
         - L2. CP2: products grid visible (note: this path is finished here, so we add this additional checkpoint)
  - About SauceLabs
@@ -164,7 +164,7 @@ Scenario: Locked Out login when using locked out user and valid password
  - Close Burger menu
        - L1. CP1: table element invisible 
        - L1. CP2: Burger menu is visible
- - Select All Items
+ - All Items
        - L2. CP1: products page title
        - L2. CP2: products grid visible (note: this path is finished here, so we add this additional checkpoint)
  - About SauceLabs
