@@ -56,7 +56,7 @@ Scenario: Locked Out login when using locked out user and valid password
  - Close Burger menu
         - L1. CP1: table element invisible 
         - L1. CP2: Burger menu is visible
- - Select All Items
+ - All Items
         - L2. CP1: products page title
         - L2. CP2: products grid visible (note: this path is finished here, so we add this additional checkpoint)
  - About SauceLabs
@@ -92,7 +92,7 @@ Scenario: Locked Out login when using locked out user and valid password
  - Close Burger menu
         - L1. CP1: table element invisible 
         - L1. CP2: Burger menu is visible
- - Select All Items
+ - All Items
         - L2. CP1: products page title
         - L2. CP2: products grid visible (note: this path is finished here, so we add this additional checkpoint)
  - About SauceLabs
@@ -112,8 +112,10 @@ Scenario: Locked Out login when using locked out user and valid password
  - Remove Last
        - L1. CP1: button text changed
        - L1. CP2: shopping cart icon badge deleted
- - Checkout access
+ - Checkout access. Enabled with products.
        - L3. CP1: page title
+ - Checkout access. Disabled without products.
+       - L1. CP1: button is disable
  - Continue Shopping
        - L3. CP1: page title
  - Shopping cart access
@@ -123,7 +125,7 @@ Scenario: Locked Out login when using locked out user and valid password
  - Close Burger menu
         - L1. CP1: table element invisible 
         - L1. CP2: Burger menu is visible
- - Select All Items
+ - All Items
         - L2. CP1: products page title
         - L2. CP2: products grid visible (note: this path is finished here, so we add this additional checkpoint)
  - About SauceLabs
@@ -163,7 +165,7 @@ Scenario: Locked Out login when using locked out user and valid password
  - Close Burger menu
        - L1. CP1: table element invisible 
        - L1. CP2: Burger menu is visible
- - Select All Items
+ - All Items
        - L2. CP1: products page title
        - L2. CP2: products grid visible (note: this path is finished here, so we add this additional checkpoint)
  - About SauceLabs

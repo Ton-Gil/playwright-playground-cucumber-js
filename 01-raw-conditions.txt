@@ -38,7 +38,7 @@ Scenario: Locked Out login when using locked out user and valid password
  - Shopping cart access
  - Open Burger menu
  - Close Burger menu
- - Select All Items
+ - All Items
  - About SauceLabs
  - Logout
  - Reset
@@ -51,7 +51,7 @@ Scenario: Locked Out login when using locked out user and valid password
  - Shopping cart access
  - Open Burger menu
  - Close Burger menu
- - Select All Items
+ - All Items
  - About SauceLabs
  - Logout
  - Reset
@@ -60,12 +60,13 @@ Scenario: Locked Out login when using locked out user and valid password
  [PAGE]  YOUR CART
  
  - Remove
- - Checkout access
+ - Checkout access. Enabled with products.
+ - Checkout access. Disabled without products.
  - Conitnue Shopping
  - Shopping cart access
  - Open Burger menu
  - Close Burger menu
- - Select All Items
+ - All Items
  - About SauceLabs
  - Logout
  - Reset
@@ -83,7 +84,7 @@ Scenario: Locked Out login when using locked out user and valid password
  - Shopping cart access
  - Open Burger menu
  - Close Burger menu
- - Select All Items
+ - All Items
  - About SauceLabs
  - Logout
  - Reset
@@ -96,7 +97,7 @@ Scenario: Locked Out login when using locked out user and valid password
  - Shopping cart access
 - Open Burger menu
  - Close Burger menu
- - Select All Items
+ - All Items
  - About SauceLabs
  - Logout
  - Reset
@@ -108,7 +109,7 @@ Scenario: Locked Out login when using locked out user and valid password
  - Shopping cart access
 - Open Burger menu
  - Close Burger menu
- - Select All Items
+ - All Items
  - About SauceLabs
  - Logout
  - Reset
