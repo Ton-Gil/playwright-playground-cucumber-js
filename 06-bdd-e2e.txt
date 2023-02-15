@@ -113,7 +113,7 @@ Then I see the left menu
         - L1. CP2: Burger menu is visible
 Given I am logged into Products page with "standard_user" user --> Complex step
 And I select "Menu" option at "Products" page --> Simple step with page reference
-When I select "Close" option at left menu
+When I select "Close" option at the left menu
 Then I see the "Menu option" at "Products" page
 
  - All Items
@@ -121,7 +121,7 @@ Then I see the "Menu option" at "Products" page
         - L2. CP2: products grid visible (note: this path is finished here, so we add this additional checkpoint)
 Given I am logged into Products page with "standard_user" user --> Complex step
 And I select "Menu" option at "Products" page --> Simple step with page reference
-When I select "All Items" option at left menu
+When I select "All Items" option at the left menu
 Then I see "Products" page  --> Simple Step
 And I see the "Menu option" at "Products" page
 And I see the "products grid" at "Products" page
@@ -130,14 +130,14 @@ And I see the "products grid" at "Products" page
         - L3. CP1: Saucelabs page title
 Given I am logged into Products page with "standard_user" user --> Complex step
 And I select "Menu" option at "Products" page --> Simple step with page reference
-When I select "About" option at left menu
+When I select "About" option at the left menu
 Then I see "Saucelabs" page  --> Simple Step
 
  - Logout
         - L2. CP1: Login button
 Given I am logged into Products page with "standard_user" user --> Complex step
 And I select "Menu" option at "Products" page --> Simple step with page reference
-When I select "Logout" option at left menu
+When I select "Logout" option at the left menu
 Then I see "Login" option at "Login" page  --> Simple Step
 
  - Reset
@@ -145,7 +145,7 @@ Then I see "Login" option at "Login" page  --> Simple Step
         - L1. CP2: shopping cart icon with no badge
 Given I am logged into Products page with "standard_user" user --> Complex step
 And I select "Menu" option at "Products" page --> Simple step with page reference
-When I select "Reset App State" option at left menu
+When I select "Reset App State" option at the left menu
 Then I don't see any badge in shopping cart at "Products" page --> Simple step with page reference
 And I see product option is "Add To Cart" for "all" products at "Products" page
    
@@ -188,7 +188,7 @@ And another one for Your Cart page. Be aware of the parametrised step is the sam
 
 For this project We have chosen to create a dedicated file also for left menu steps:
 - I see the left menu
-- I select "(All Items|Logout|About|Reset App State|Close)" option at left menu
+- I select "(All Items|Logout|About|Reset App State|Close)" option at the left menu
 
 
 
@@ -257,7 +257,7 @@ Then I see the left menu
         - L1. CP2: Burger menu is visible
 Given I select "unselected" random product "name" when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Detail" page --> Simple step with page reference
-When I select "Close" option at left menu
+When I select "Close" option at the left menu
 Then I see the "Menu option" at "Detail" page
 
  - All Items
@@ -265,7 +265,7 @@ Then I see the "Menu option" at "Detail" page
         - L2. CP2: products grid visible (note: this path is finished here, so we add this additional checkpoint)
 Given I select "unselected" random product "name" when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Detail" page --> Simple step with page reference
-When I select "All Items" option at left menu
+When I select "All Items" option at the left menu
 Then I see "Products" page  --> Simple Step
 And I see the "Menu option" at "Products" page
 And I see the "products grid" at "Products" page
@@ -274,22 +274,22 @@ And I see the "products grid" at "Products" page
         - L3. CP1: Saucelabs page title
 Given I select "unselected" random product "name" when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Detail" page --> Simple step with page reference
-When I select "About" option at left menu
+When I select "About" option at the left menu
 Then I see "Saucelabs" page  --> Simple Step
 
  - Logout
         - L2. CP1: Login button
 Given I select "unselected" random product "name" when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Detail" page --> Simple step with page reference
-When I select "Logout" option at left menu
+When I select "Logout" option at the left menu
 Then I see "Login" option at "Login" page  --> Simple Step
 
  - Reset
         - L1. CP1: All products with Add To Cart text
         - L1. CP2: shopping cart icon with no badge
-Given I select random "unselected" random product "name" when logged as "standard_user" user --> Complex step
+Given I select "unselected" random product "name" when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Detail" page --> Simple step with page reference
-When I select "Reset App State" option at left menu
+When I select "Reset App State" option at the left menu
 Then I don't see any badge in shopping cart at "Detail" page --> Simple step with page reference
 And I see product option is "Add To Cart" for the Detail's product
  
@@ -383,7 +383,7 @@ Then I see the left menu
         - L1. CP2: Burger menu is visible
 Given I proceed to "Your Cart" page with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Your Cart" page --> Simple step with page reference
-When I select "Close" option at left menu
+When I select "Close" option at the left menu
 Then I see the "Menu option" at "Your Cart" page
 
  - All Items
@@ -391,7 +391,7 @@ Then I see the "Menu option" at "Your Cart" page
         - L2. CP2: products grid visible (note: this path is finished here, so we add this additional checkpoint)
 Given I proceed to "Your Cart" page with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Your Cart" page --> Simple step with page reference
-When I select "All Items" option at left menu
+When I select "All Items" option at the left menu
 Then I see "Products" page  --> Simple Step
 And I see the "Menu option" at "Products" page
 And I see the "products grid" at "Products" page
@@ -400,14 +400,14 @@ And I see the "products grid" at "Products" page
         - L3. CP1: Saucelabs page title
 Given I proceed to "Your Cart" page with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Your Cart" page --> Simple step with page reference
-When I select "About" option at left menu
+When I select "About" option at the left menu
 Then I see "Saucelabs" page  --> Simple Step
 
  - Logout
         - L2. CP1: Login button
 Given I proceed to "Your Cart" page with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Your Cart" page --> Simple step with page reference
-When I select "Logout" option at left menu
+When I select "Logout" option at the left menu
 Then I see "Login" option at "Login" page  --> Simple Step
 
  - Reset
@@ -415,7 +415,7 @@ Then I see "Login" option at "Login" page  --> Simple Step
         - L1. CP2: shopping cart icon with no badge
 Given I proceed to "Your Cart" page with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Your Cart" page --> Simple step with page reference
-When I select "Reset App State" option at left menu
+When I select "Reset App State" option at the left menu
 Then I don't see any badge in shopping cart at "Your Cart" page --> Simple step with page reference
 And I don't see "any" product at "Your Cart" page
  
@@ -451,7 +451,7 @@ And I fill "last name" and "zip/postal code"
 When I select "Continue" option at "Your Information" page
 Then I see "first name missing" error at Your Information page
 And I see empty fields placeholder and underline in red font plus an error icon
-And I don't see not empty fields placeholder and underline in red font plus an error icon
+And I don't see not-empty fields placeholder and underline in red font plus an error icon
 
  - Invalid Continue - last name missing
        - L1. CP1: error banner + configured text
@@ -481,7 +481,7 @@ And I fill no fields at "Your Information" page
 When I select "Continue" option at "Your Information" page
 Then I see "first name missing" error at Your Information page
 And I see empty fields placeholder and underline in red font plus an error icon
-And I don't see not empty fields placeholder and underline in red font plus an error icon
+And I don't see not-empty fields placeholder and underline in red font plus an error icon
 
  - Invalid Continue - only one (random) field is filled 
        - L1. CP1: error banner + configured text for first missing field
@@ -491,12 +491,12 @@ And I fill "one random" fields at "Your Information" page
 When I select "Continue" option at "Your Information" page
 Then I see "first empty field missing" error at Your Information page
 And I see empty fields placeholder and underline in red font plus an error icon
-And I don't see not empty fields placeholder and underline in red font plus an error icon
+And I don't see not-empty fields placeholder and underline in red font plus an error icon
 
  - Valid Continue
        - L3. CP1: page title
 Given I proceed to "Your Information" page with "1" selected random products when logged as "standard_user" user --> Complex step
-And I fill all fields in "Your Information" page
+And I fill all fields at "Your Information" page
 When I select "Continue" option at "Your Information" page
 Then I see "Overview" page
 
@@ -504,7 +504,7 @@ Then I see "Overview" page
        - L2. CP1: page title
        - L2. CP2: products list is visible
 Given I proceed to "Your Information" page with "1" selected random products when logged as "standard_user" user --> Complex step
-And I fill all fields in "Your Information" page
+And I fill all fields at "Your Information" page
 When I select "Cancel" option at "Your Information" page
 Then I see "Your Cart" page
 And I see the "product list" at "Your Cart" page
@@ -528,7 +528,7 @@ Then I see the left menu
         - L1. CP2: Burger menu is visible
 Given I proceed to "Your Information" page with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Your Information" page --> Simple step with page reference
-When I select "Close" option at left menu
+When I select "Close" option at the left menu
 Then I see the "Menu option" at "Your Information" page
 
  - All Items
@@ -536,7 +536,7 @@ Then I see the "Menu option" at "Your Information" page
         - L2. CP2: products grid visible (note: this path is finished here, so we add this additional checkpoint)
 Given I proceed to "Your Information" page with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Your Information" page --> Simple step with page reference
-When I select "All Items" option at left menu
+When I select "All Items" option at the left menu
 Then I see "Products" page  --> Simple Step
 And I see the "Menu option" at "Products" page
 And I see the "products grid" at "Products" page
@@ -545,14 +545,14 @@ And I see the "products grid" at "Products" page
         - L3. CP1: Saucelabs page title
 Given I proceed to "Your Information" page with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Your Information" page --> Simple step with page reference
-When I select "About" option at left menu
+When I select "About" option at the left menu
 Then I see "Saucelabs" page  --> Simple Step
 
  - Logout
         - L2. CP1: Login button
 Given I proceed to "Your Information" page with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Your Information" page --> Simple step with page reference
-When I select "Logout" option at left menu
+When I select "Logout" option at the left menu
 Then I see "Login" option at "Login" page  --> Simple Step
 
  - Reset
@@ -560,15 +560,15 @@ Then I see "Login" option at "Login" page  --> Simple Step
         - L1. CP2: shopping cart icon with no badge
 Given I proceed to "Your Information" page with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Your Information" page --> Simple step with page reference
-When I select "Reset App State" option at left menu
+When I select "Reset App State" option at the left menu
 Then I don't see any badge in shopping cart at "Your Information" page --> Simple step with page reference
 
  - Reset And Continue Checkout
         - L1. CP1: Since there is no shown product at this page, we need to follow the flow one step in order to check the cart is empty.
 Given I proceed to "Your Information" page with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Your Information" page --> Simple step with page reference
-And I select "Reset App State" option at left menu
-And I fill all fields in "Your Information" page
+And I select "Reset App State" option at the left menu
+And I fill all fields at "Your Information" page
 When I select "Continue" option at "Your Information" page
 And I don't see "any" product at "Overview" page
 
@@ -633,7 +633,7 @@ Then I see the left menu
         - L1. CP2: Burger menu is visible
 Given I checkout the purchase with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Overview" page --> Simple step with page reference
-When I select "Close" option at left menu
+When I select "Close" option at the left menu
 Then I see the "Menu option" at "Overview" page
 
  - All Items
@@ -641,7 +641,7 @@ Then I see the "Menu option" at "Overview" page
         - L2. CP2: products grid visible (note: this path is finished here, so we add this additional checkpoint)
 Given I checkout the purchase with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Overview" page --> Simple step with page reference
-When I select "All Items" option at left menu
+When I select "All Items" option at the left menu
 Then I see "Products" page  --> Simple Step
 And I see the "Menu option" at "Products" page
 And I see the "products grid" at "Products" page
@@ -650,14 +650,14 @@ And I see the "products grid" at "Products" page
         - L3. CP1: Saucelabs page title
 Given I checkout the purchase with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Overview" page --> Simple step with page reference
-When I select "About" option at left menu
+When I select "About" option at the left menu
 Then I see "Saucelabs" page  --> Simple Step
 
  - Logout
         - L2. CP1: Login button
 Given I checkout the purchase with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Overview" page --> Simple step with page reference
-When I select "Logout" option at left menu
+When I select "Logout" option at the left menu
 Then I see "Login" option at "Login" page  --> Simple Step
 
  - Reset
@@ -665,7 +665,7 @@ Then I see "Login" option at "Login" page  --> Simple Step
         - L1. CP2: shopping cart icon with no badge
 Given I checkout the purchase with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Overview" page --> Simple step with page reference
-When I select "Reset App State" option at left menu
+When I select "Reset App State" option at the left menu
 Then I don't see any badge in shopping cart at "Overview" page --> Simple step with page reference
 And I don't see "any" product at "Overview" page
 
@@ -731,21 +731,21 @@ And I see the "products grid" at "Products" page
        - L3. CP1: Saucelabs page title
 Given I finish the purchase with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Complete" page --> Simple step with page reference
-When I select "About" option at left menu
+When I select "About" option at the left menu
 Then I see "Saucelabs" page  --> Simple Step
 
 - Logout
        - L2. CP1: Login button
 Given I finish the purchase with "1" selected random products when logged as "standard_user" user --> Complex step
 And I select "Menu" option at "Complete" page --> Simple step with page reference
-When I select "Logout" option at left menu
+When I select "Logout" option at the left menu
 Then I see "Login" option at "Login" page  --> Simple Step
 
 - Reset
        - L1. CP2: shopping cart icon with no badge
 Given I am logged into Products page with "standard_user" user --> Complex step
 And I select "Menu" option at "Complete" page --> Simple step with page reference
-When I select "Reset App State" option at left menu
+When I select "Reset App State" option at the left menu
 Then I don't see any badge in shopping cart at "Complete" page --> Simple step with page reference
 
 
@@ -954,16 +954,16 @@ And I see product option is "Remove" for "selected" products
        - cart badge
 Given I select "Add To Cart" option for "1" "unselected" random products when logged as "standard_user" user
 And I select "Menu" option at "Products" page
-And I select "Reset App State" option at left menu
+And I select "Reset App State" option at the left menu
 When I select "Shopping Cart" option at "Products" page
 Then I don't see "selected" product at "Your Cart" page 
 
 - Left Menu's Reset resets shopping cart. Detail page
        - Cart keeps status
        - cart badge
-Given I select random "unselected" random product "name" when logged as "standard_user" user
+Given I select "unselected" random product "name" when logged as "standard_user" user
 And I select "Menu" option at "Detail" page
-And I select "Reset App State" option at left menu
+And I select "Reset App State" option at the left menu
 When I select "Shopping Cart" option at "Detail" page
 Then I don't see "selected" product at "Your Cart" page 
 
@@ -972,7 +972,7 @@ Then I don't see "selected" product at "Your Cart" page
        - cart badge
 Given I proceed to "Your Cart" page with "1" selected random products when logged as "standard_user" user
 And I select "Menu" option at "Your Cart" page
-When I select "Reset App State" option at left menu
+When I select "Reset App State" option at the left menu
 Then I don't see "selected" product at "Your Cart" page 
 
 - Left Menu's Reset resets shopping cart. Your Information page
@@ -980,7 +980,7 @@ Then I don't see "selected" product at "Your Cart" page
        - cart badge
 Given I proceed to "Your Information" page with "1" selected random products when logged as "standard_user" user
 And I select "Menu" option at "Your Information" page
-And I select "Reset App State" option at left menu
+And I select "Reset App State" option at the left menu
 When I select "Shopping Cart" option at "Your Information" page
 Then I don't see "selected" product at "Your Cart" page 
 
@@ -989,7 +989,7 @@ Then I don't see "selected" product at "Your Cart" page
        - cart badge
 Given I checkout the purchase with "1" selected random products when logged as "standard_user" user
 And I select "Menu" option at "Overview" page
-When I select "Reset App State" option at left menu
+When I select "Reset App State" option at the left menu
 When I select "Shopping Cart" option at "Your Information" page
 Then I don't see "any" product at "Your Cart" page
 
@@ -1014,9 +1014,9 @@ Total	97
 		
 3 steps scenarios	18	0.1855670103
 4 steps scenarios	36	0.3711340206
-5 steps scenarios	28	0.2886597938
-6 steps scenarios	13	0.1340206186
+5 steps scenarios	29	0.2989690722
+6 steps scenarios	12	0.1237113402
 7 steps scenarios	2	0.0206185567
 		
-Average	4.432989691	
+Average	4.422680412	
 
