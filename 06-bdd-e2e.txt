@@ -1003,3 +1003,20 @@ And I see product option is "Remove" for the Detail's product
 Then I see correct name and price for "selected" products at "Overview" page
 And I see correct quantity for selected products at "Overview" page
 And I see correct total price for selected products
+
+
+
+FINAL STEPS STATS 
+
+Scenarios	96	
+Scenario Outline	1	
+Total	97	
+		
+3 steps scenarios	18	0.1855670103
+4 steps scenarios	36	0.3711340206
+5 steps scenarios	28	0.2886597938
+6 steps scenarios	13	0.1340206186
+7 steps scenarios	2	0.0206185567
+		
+Average	4.432989691	
+
